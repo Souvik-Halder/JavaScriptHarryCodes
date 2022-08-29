@@ -1,0 +1,13 @@
+console.time('Your code took')
+console.log('Hello console');
+console.log(10+43)
+console.log(43)
+console.log(true)
+console.log([4,6,9,2])
+console.log({name: 'Anik',marks:99})
+console.table({name: 'Anik',marks:99})
+console.warn('This is a warning')
+console.timeEnd('Your code took')
+// console.assert(566<180,'age>180 is not possible')
+console.error('This is an error')
+console.clear()
