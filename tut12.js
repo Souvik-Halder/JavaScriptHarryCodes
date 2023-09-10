@@ -4,6 +4,7 @@ console.log('javaScript tut12')
 
 // a = document.all;
 // a = document.body;
+// a = document.head;
 // a = document.forms[0];
 
 //array.form make an array from html collection
@@ -11,10 +12,10 @@ console.log('javaScript tut12')
 //     console.log(element)
 // })
 
-// a = document.links[0];
+// a = document.links[3];
 // a = document.links[0].href ;
 
-//use document.images and document.scripts and print t he list of images ans scripts on an htmlpage
+//use document.images and document.scripts and print the list of images ans scripts on an html page
 // b = document.images;
 // a = document.scripts;
 // Array.from(a).forEach(function (element){
@@ -27,14 +28,15 @@ console.log('javaScript tut12')
 //    )
 
 
-// /question
+// question
 
-a = document.links;
+let a = document.links;
 Array.from(a).forEach(function (element) {
     if (element.innerText.includes('anik'))
     console.log(element);
 });
 
+// console.log(b);
 console.log(a);
 
 

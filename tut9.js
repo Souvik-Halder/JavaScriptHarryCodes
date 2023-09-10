@@ -1,6 +1,6 @@
 console.log('javaScript tut9');
 
-//for loop
+// for loop
 // for(let i = 0; i<=100; i++){
 //     console.log(i);
 // }
@@ -13,7 +13,7 @@ console.log('javaScript tut9');
 // }
 
 //Do-while loop
-//print the value at least one time
+// print the value at least one time
 // let k = 0;
 // do{
 //     console.log(k+2);
@@ -38,7 +38,7 @@ console.log('javaScript tut9');
 // let k = 0;
 // do{
 //     if (k===5) {
-//         k++;
+//         // k++;
 //         continue;
 //     }
 //     console.log(k+2)

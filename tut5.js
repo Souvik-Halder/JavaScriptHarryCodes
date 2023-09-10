@@ -13,23 +13,26 @@ let booleanVar = String(true);
 console.log(booleanVar,(typeof booleanVar));
 
 let date = String(new Date());
-// console.log(date,(typeof date));
+console.log(date,(typeof date));
 
 let arr = String([1,2,3,4,5]);
-// console.log(arr,arr.length,(typeof arr));
+console.log(arr,arr.length,(typeof arr));
 // let myArr = [1,2,3,4,5];
 // console.log(myArr,myArr.length,(typeof myArr));
 
+//another way to convert an integer into a string:
 let i = 81;
-// console.log(i.toString());
+console.log(i.toString());
 
+
+//to convert a string into an integer:
 let stri = Number("3456"); 
 // stri = Number(true);
-stri = Number("345nik6");
-stri = Number([1,2,3,4,5,6,7,8,9]);
+// stri = Number("345nik6");
+// stri = Number([1,2,3,4,5,6,7,8,9]);
 console.log(stri,(typeof stri));
 
-//
+
 let number = parseInt(54.0987);
 let float = parseFloat(54.0987);
 // console.log(number,(typeof number));

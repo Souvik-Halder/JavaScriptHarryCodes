@@ -14,12 +14,14 @@ elmnt1.id = ('uniqueid');
 elmnt1.setAttribute('title', 'mytitle');
 
 //adding a text to the li element
-// elmnt1.innerText = '<b>Hello this is a newly created text</b>';
-//todo the text bold
-// elmnt1.innerHTML = '<b>Hello this is a newly created text</b>';
+elmnt1.innerText = 'Hello this is a newly created text';
+//to do the text bold
+elmnt1.innerHTML = '<b>Hello this is a newly created text</b>';
+
                           //'OR'
-let txt = document.createTextNode('Hello this a newly created text for elmnt1');
-elmnt1.appendChild(txt)
+
+// let txt = document.createTextNode('Hello this a newly created text for elmnt1');
+// elmnt1.appendChild(txt)
 
 //selecting ul of 'this' class 
 let ul = document.querySelector('ul.this');
@@ -46,13 +48,13 @@ myul.replaceChild(elmnt1,document.getElementById('fli'));
 
 
 //REMOVING-
-myul.removeChild(document.getElementById('lli'));
+// myul.removeChild(document.getElementById('lli'));
 // console.log(elmnt2);
 // let pr = elmnt2.getAttribute('class'); 
 let pr = elmnt2.hasAttribute('class');
 elmnt2.removeAttribute('id');
 elmnt2.setAttribute('title','myelmnt2title');
-console.log(elmnt2,pr);
+console.log(elmnt2, pr);
 
 
 //question

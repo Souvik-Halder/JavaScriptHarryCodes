@@ -9,28 +9,32 @@ console.log('javaScript tut10');
 // }
 
 // declaration of function
-//function wish(name1, thank='Thankyou'){
+// function wish(name1, thank = 'Thanku'){
 //     console.log(`Happy Birthday, ${name1} This birthday I wish you and your family abundance, happiness, and health. May lady luck come especially for you.${thank}`); 
-// }
+
 
 //     let msg = `Happy Birthday, ${name1} This birthday I wish you and your family abundance, happiness, and health. May lady luck come especially for you.${thank}`;
 //     return msg;
 // }
 
 // let name1 = 'Anik';
+// let thank = 'Thanku';
+// let name1;
+// let thank;
 
-// wish(name1,'thanks a lot for the wish');
-// wish('Anik','thanks a lot for the wish');
+// wish(name1,thank);
+// wish('Anik','thanku');
 // wish(name1)
+
 // let val= wish(name1,'Thanks a lot');
 // console.log(val);
 
 // let val = myWish(name1,'Thanks a lot');
 // console.log(val);
 
-// --------------------------------------------------------
+// // --------------------------------------------------------
 
-// make a function in an object
+// // make a function inside an object
 // const obj = {
 //     name: "Anik",
 //     game: function(){
@@ -40,7 +44,7 @@ console.log('javaScript tut10');
 // console.log(obj.game(),"\n",obj.name);
 
 
-// let arr = ['fruit','vegetable','furniture','stationart'];
+// let arr = ['fruit','vegetable','furniture','stationary'];
 
 // arr.forEach(function(element, index, array){
 //     console.log(element,index,array)
@@ -55,8 +59,11 @@ if (1){
 
 console.log(i);
 function webSite(name){
-    // let i = 321;
-    let i = 321
+    
+    // i = 456;
+    // var i = 456;
+    let i = 456;
+
     console.log(i);
     return`this is ${name}'s Website `;
 }

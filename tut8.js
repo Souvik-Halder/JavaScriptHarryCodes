@@ -1,23 +1,26 @@
 console.log('javaScript tut8');
 
 // const age = 19;
-// const age = 39;
+// const age = 65;
 
-//to make the type or value both equal, use '==='
+//if u want to compare type and value both, use '===' 
+//if u want to compare value, use '=='
 const age = 20;
 const doesDrive = false;
 
-// if(age!=19){
-//     console.log('Age is not 19');
+// if(age==19){
+//     console.log('Age is 19');
 // }
-// if(age!==65){
-//     console.log('Age is not 65');
+// else if(age==65){
+//     console.log('Age is  65');
 // }
 // else{
 //     console.log('age is not 19');
 // }
 
 // to check whether the variable is defined or not
+
+// const vari = 30;
 // if(typeof vari !=='undefined'){
 //     console.log('Vari is defined');
 // }
@@ -34,7 +37,7 @@ const doesDrive = false;
 // }
 
 
-// if(doesDrive ||age>18){
+// if(doesDrive || age>18){
 //     console.log('You can drive');
 // }
 // else{
@@ -44,7 +47,7 @@ const doesDrive = false;
 
 //terinary operator is used
 //if condition is true then first statement will print otherwise second statement will print.
-// console.log(age==45? 'Age is 45': 'Age is not 45');
+console.log(age==45? 'Age is 45': 'Age is not 45');
 
 //switch case
 switch (age) {

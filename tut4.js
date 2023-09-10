@@ -1,6 +1,6 @@
 console.log('tut4')
 
-//primitive datatypes:
+//primitive datatypes:(memory allocated in stack)
 
 //string
 let name = 'anik'
@@ -23,18 +23,14 @@ console.log("Data type is "+(typeof nullVar));
 let undef = undefined;
 console.log("Data type is "+(typeof undef));
 
-//Reference datatypes
+//Reference datatypes(memory allocated in heap)
 
 //arrays
 arr = [1,2,7,3,5,false,"String"];
 console.log("Data type is "+(typeof arr));
 
 //object literals
- let stMarks = {
-    anik:90,
-    harry: 68,
-    vicky: 73
- }
+ let stMarks = {anik:90,harry: 68,vicky: 73}
  console.log("Data type is "+(typeof stMarks));
  console.log(stMarks);
 

@@ -1,0 +1,35 @@
+body{
+    background: rgb(255, 182, 182);
+}
+
+.imgBox{
+    background-image: url('photo.png');
+    position: relative;
+    top:5px;
+    left: 5px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.whiteBox{
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 3px rgb(103, 0, 0) solid;
+}
+
+.hold{
+    border: solid black;
+}
+
+.dashed{
+    background: rgb(213, 147, 147);
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}

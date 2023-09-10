@@ -3,14 +3,14 @@
 // var, let, const
 
 //var:
-var name = 'anik';
+var name = 'Anik';
 var channel;
 var marks = 34;
 marks = 0;
-channel='This is Anik Raj';  
+channel='This is Anik Raj'; 
 console.log(name, channel, marks);
 var city = 'Delhi';
-// console.log(city);
+console.log(city);
 
 // .....rules for creating javaScript variables.....
 // 1. cannot start with numbers
@@ -19,10 +19,10 @@ var city = 'Delhi';
 
 
 //const: 
-const ownersName = 'Krishna Prasad';
+const ownersName = 'Anik Raj';
 // ownersName = 'Anik Raj'; //cannot do this(error)
-console.log(ownersName);
 const fruit ='mango' ;
+console.log(ownersName, fruit);
 
 //let:
 {
@@ -33,7 +33,7 @@ console.log(city);
 console.log(city);
 
 const arr1 = [12,42,22,34,5];
-// arr1.push(66);
+//  arr1.push(66);
 console.log(arr1); 
 
 /* Most common progrmming case types:
